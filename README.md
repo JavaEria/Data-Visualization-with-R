@@ -13,5 +13,5 @@ Segments for Data Analysis Certification
  10. Warm up with ggplot (ggplot2_warmup.R)
  11. Aesthetics Layer (ggplot2_aesthetics.R)
  12. Geometrics Layer (ggplot2_geometrics.R)
- 13. Summarizing with dplyr (gapminder.R)
- 14. Data Visualization Principles (practice.R)
+ 13. Summarizing with dplyr
+ 14. Nyc Flights data for EDA
