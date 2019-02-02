@@ -6,7 +6,8 @@ ggplot(data=mtcars, aes(x=cyl, y=mpg)) + geom_point()
 # We would have to explicitly tell that cyl is a categorical variable using the factor function
 ggplot(data=mtcars, aes(x=factor(cyl), y=mpg)) + geom_point()
 # the x-axis will now only contain the values that are present in the data set(factors)
-# use of color and size from aesthetics mapping
+
+# use of color, size and shape from aesthetics mapping
 ggplot(data=mtcars, aes(x=wt, y=mpg)) + geom_point() #plotting miles per gallon against weight
 #categorize the plots with displacement of the car using colors
 ggplot(data=mtcars, aes(x=wt, y=mpg, color=disp)) + geom_point() #legend automatically generated

@@ -4,7 +4,7 @@ x <- Galton$child
 mean(x)
 median(x)
 sd(x) #standard deviatiom
-mad(x)
+
 # Our dataset has normal distribution so therefore we will add an outlier as an error, that has height without decimal point
 x_with_error <- x
 x_with_error[1] <- x_with_error[1]*10
